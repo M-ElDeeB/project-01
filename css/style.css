@@ -541,6 +541,9 @@ header .navbar {
     .owl-carousel .owl-nav button.owl-next span {
         display: none;
     }
+    .owl-item{
+        width: 370px !important;
+    }
 }
 
 /* End testimonials Section */

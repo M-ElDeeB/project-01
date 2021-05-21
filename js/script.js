@@ -25,11 +25,12 @@ $(function () {
 	})
 
 	//scroll to section
-	$('.navbar-nav .nav-link').on('click', function (e) {
+	$(select).on('click', function (e) {
+	
 		e.preventDefault();
 		$('html, body').animate({
 			scrollTop: $('#' + $(this).data('scroll')).offset().top
-		}, 1000)
+		}, 200)
 	})
 
 	//sticky header
